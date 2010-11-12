@@ -3,7 +3,7 @@ function [result]=det3(in)
   % input has to be 3x3xNxMx..
   % http://www.mail-archive.com/numpy-discussion@scipy.org/msg12110.html
   % Mirko Windhoff, 2009
-  % $Id: det3.m 432 2010-08-05 11:06:14Z mwindhoff $
+  % $Id$
   s=size(in);
   if s(1) ~= s(2) || s(1) ~= 3
     error('Input must be 3x3xN...');

@@ -6,7 +6,7 @@ function [c]=mtimesnd(a,b)
   % nonsquare dimensions.
   % See mtimes3d for more information.
   % Mirko Windhoff, 2009
-  % $Id: mtimesnd.m 433 2010-08-05 22:11:37Z mwindhoff $
+  % $Id$
   if size(a)~=size(b)
     error('Dimension missmatch.');
   end;

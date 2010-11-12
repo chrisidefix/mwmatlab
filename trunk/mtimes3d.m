@@ -12,7 +12,7 @@ function c=mtimes3d(a,b)
   %   a is 4x4x10x3; b is 4x4x10x3;
   %   c=reshape(mtimes3d(reshape(a,[4,4,10*3]),reshape(b,[4,4,10*3])),size(a));
   % Mirko Windhoff, 2009
-  % $Id: mtimes3d.m 432 2010-08-05 11:06:14Z mwindhoff $
+  % $Id$
   [n,m,l]=size(a);
   [r,s,l2]=size(b);
   if m~=r || l~=l2
