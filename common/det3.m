@@ -2,7 +2,7 @@ function [result]=det3(in)
   % Calculates the 3x3 determinant over the first 2 dims.
   % input has to be 3x3xNxMx..
   % http://www.mail-archive.com/numpy-discussion@scipy.org/msg12110.html
-  % Mirko Windhoff, 2009
+  % Mirko Windhoff, 2009. License: GPL (see license.txt).
   % $Id$
   s=size(in);
   if s(1) ~= s(2) || s(1) ~= 3

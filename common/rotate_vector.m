@@ -2,7 +2,7 @@ function v=rotate_vector(v, center, axis, angle)
   % Rotates the vector v around the axis at center by angle. v, center,
   % axis must be sized 1x3, angle is given in degrees (-360:360).
   % USAGE: v=ROTATE_VECTOR(v, center, axis, angle)
-  % Mirko Windhoff, 2009
+  % Mirko Windhoff, 2009. License: GPL (see license.txt).
   % $Id$
   if size(v,1)~=1 || size(center,1)~=1 || size(axis,1)~=1
     error('Size of input vectors must be 1x3');

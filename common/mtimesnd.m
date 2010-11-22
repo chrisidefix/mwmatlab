@@ -5,7 +5,7 @@ function [c]=mtimesnd(a,b)
   % dim 1 and 2 only, meaning: size(a)==size(b); But using mtimes3d one could adapt it for 
   % nonsquare dimensions.
   % See mtimes3d for more information.
-  % Mirko Windhoff, 2009
+  % Mirko Windhoff, 2009. License: GPL (see license.txt).
   % $Id$
   if size(a)~=size(b)
     error('Dimension missmatch.');

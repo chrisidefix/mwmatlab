@@ -2,7 +2,7 @@ function R=rotation_matrix(axis, angle)
   % Gives the rotation matrix around the axis by angle. axis must be sized 
   % 1x3, angle is given in degrees (-360:360).
   % USAGE: R=ROTATION_MATRIX(axis, angle)
-  % Mirko Windhoff, 2010
+  % Mirko Windhoff, 2010. License: GPL (see license.txt).
   % $Id$
   if size(axis,1)~=1
     error('Size of axis must be 1x3');

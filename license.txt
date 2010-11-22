@@ -1,0 +1,6 @@
+mwmatlab is copyrighted free software by Mirko Windhoff (mirko.windhoff.net).
+
+You can redistribute it and/or modify it under the terms of the GPL v3 (or later).
+See copying.txt for the full text of the license or http://www.gnu.org/licenses/gpl-3.0.txt
+
+Contact me, if you want a permission to use this software with an other license.
