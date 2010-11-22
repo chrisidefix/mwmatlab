@@ -11,7 +11,7 @@ function c=mtimes3d(a,b)
   %   Use reshape, on nD-matrices to form 3D-matrices like:
   %   a is 4x4x10x3; b is 4x4x10x3;
   %   c=reshape(mtimes3d(reshape(a,[4,4,10*3]),reshape(b,[4,4,10*3])),size(a));
-  % Mirko Windhoff, 2009
+  % Mirko Windhoff, 2009. License: GPL (see license.txt).
   % $Id$
   [n,m,l]=size(a);
   [r,s,l2]=size(b);

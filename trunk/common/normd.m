@@ -1,7 +1,7 @@
 function [norm_values]=normd(in_vector,varargin)
   % calculates the square p-norm along norm_dimension
   % With default values for it is like sqrt(sum(in_vector.^2,2)).
-  % Mirko Windhoff, 2009
+  % Mirko Windhoff, 2009. License: GPL (see license.txt).
   % $Id$
   % USAGE: [norm_values]=normd(in_vector[, p=2, norm_dimension=2])
   p=2;
